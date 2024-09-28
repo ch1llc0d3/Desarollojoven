@@ -52,6 +52,8 @@ function createDisabledConstant() {
 // 8. Crea una variable con `let` llamada `capacidad` y asígnale un valor `null`, luego imprime la variable en consola.
 function createNullVariable() {
     // Tu código aquí...
+    let capacidad = null;
+    console.log(capacidad);
 }
 
 // 9. Crea una variable con `let` llamada `dinero` y asígnale un valor `undefined`, luego imprime la variable en consola.
