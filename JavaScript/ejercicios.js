@@ -67,6 +67,8 @@ function createUndefinedVariable() {
 // 10. Escribe un código para ver el tipo de una variable llamada `userName` e imprime el tipo de dato en consola.
 function checkUserNameType() {
     // Tu código aquí...
+    let userName = "ch1llc0d3";
+    console.log(typeof userName);
 }
 
 // 11. Asegúrate de que `dogId` es una cadena de texto y luego imprime el tipo de dato en consola.
