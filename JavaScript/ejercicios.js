@@ -37,6 +37,8 @@ function createMessageVariable() {
 // 6. Crea una variable llamada `resultado` y asígnale la suma de 2 y 3, luego imprime la variable en consola.
 function createSumVariable() {
     // Tu código aquí...
+    let resultado = 2 + 3;
+    console.log(resultado);
 }
 
 // 7. Crea una constante llamada `IS_DISABLED` y asígnale el valor booleano `true`, luego imprime la constante en consola.
