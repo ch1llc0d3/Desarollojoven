@@ -2,56 +2,49 @@
 // 1. Comprueba si 10 es mayor o igual que 9 e imprime el resultado en consola.
 function compareTenAndNine() {
     // Tu código aquí...
-    console.log(10>=9);
 }
 
 // 2. Comprueba si 0 es igual a 0 e imprime el resultado en consola.
 function compareZeroAndZero() {
     // Tu código aquí...
-    console.log(0===0);
 }
 
 // 3. Comprueba si 7 es mayor que 8 y menor que 10, e imprime el resultado en consola.
 function compareSeven() {
     // Tu código aquí...
-    console.log(7>8 && 7<10);
 }
 
 // Operadores lógicos
 // 4. Verifica si puedes comprar un producto de 1500 con un descuento del 25% teniendo 1150€ e imprime si puedes o no.
 function canBuyProduct() {
     // Tu código aquí...
-    const preciodescontado = 1500*0.75;
-    const plata = 1150;
-    console.log(preciodescontado<=plata);
+
 }
 
 // Variables
 // 5. Crea una variable llamada `mensaje` y asígnale el valor "Hola JavaScript", luego imprime la variable en consola.
 function createMessageVariable() {
     // Tu código aquí...
-    let mensaje = "Hola JavaScript";
-    console.log(mensaje);
+
 }
 
 // 6. Crea una variable llamada `resultado` y asígnale la suma de 2 y 3, luego imprime la variable en consola.
 function createSumVariable() {
     // Tu código aquí...
-    let resultado = 2+3;
-    console.log(resultado);
+
 }
 
 // 7. Crea una constante llamada `IS_DISABLED` y asígnale el valor booleano `true`, luego imprime la constante en consola.
 function createDisabledConstant() {
     // Tu código aquí...
-    const IS_DISABLED = true
-    console.log(IS_DISABLED);
+
 }
 
 // Null y Undefined
 // 8. Crea una variable con `let` llamada `capacidad` y asígnale un valor `null`, luego imprime la variable en consola.
 function createNullVariable() {
     // Tu código aquí...
+
 }
 
 // 9. Crea una variable con `let` llamada `dinero` y asígnale un valor `undefined`, luego imprime la variable en consola.
