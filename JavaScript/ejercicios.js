@@ -59,6 +59,8 @@ function createNullVariable() {
 // 9. Crea una variable con `let` llamada `dinero` y asígnale un valor `undefined`, luego imprime la variable en consola.
 function createUndefinedVariable() {
     // Tu código aquí...
+    let dinero = undefined;
+    console.log(dinero);
 }
 
 // typeof
