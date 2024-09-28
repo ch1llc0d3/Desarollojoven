@@ -14,13 +14,16 @@ function compareZeroAndZero() {
 // 3. Comprueba si 7 es mayor que 8 y menor que 10, e imprime el resultado en consola.
 function compareSeven() {
     // Tu código aquí...
+    console.log(7>8 && 7<10);
 }
 
 // Operadores lógicos
 // 4. Verifica si puedes comprar un producto de 1500 con un descuento del 25% teniendo 1150€ e imprime si puedes o no.
 function canBuyProduct() {
     // Tu código aquí...
-
+    const preciodescontado = 1500*0.75;
+    const plata = 1150;
+    console.log(preciodescontado<=plata);
 }
 
 // Variables
