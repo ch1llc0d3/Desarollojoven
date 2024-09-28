@@ -22,7 +22,7 @@ function clasificarEdad(edad) {
     // Tu código aquí
     if(edad<18){
         console.log("Menor de edad");
-    } else if(edad>18&&edad<65) {
+    } else if(edad>=18&&edad<=65) {
         console.log("Adulto");
     } else (edad>65) {
         console.log("Adulto mayor");
