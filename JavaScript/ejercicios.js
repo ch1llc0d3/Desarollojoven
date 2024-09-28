@@ -89,6 +89,8 @@ function logMessage() {
 // 13. Utiliza `console.log()` para imprimir el valor de la variable `edad` que tiene el valor 30.
 function logAge() {
     // Tu código aquí...
+    let edad = 30;
+    console.log(edad);
 }
 
 // 14. Muestra el mensaje 'La versión de JavaScript es' seguido de la variable `version` con el valor 2024 usando `console.log()`.
