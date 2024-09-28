@@ -30,6 +30,8 @@ function canBuyProduct() {
 // 5. Crea una variable llamada `mensaje` y asígnale el valor "Hola JavaScript", luego imprime la variable en consola.
 function createMessageVariable() {
     // Tu código aquí...
+    let mensaje = "Hola JavaScript";
+    console.log(mensaje);
 }
 
 // 6. Crea una variable llamada `resultado` y asígnale la suma de 2 y 3, luego imprime la variable en consola.
