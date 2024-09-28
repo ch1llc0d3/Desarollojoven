@@ -83,6 +83,7 @@ function checkDogIdIsString() {
 // 12. Imprime un mensaje en la consola utilizando `console.log()`.
 function logMessage() {
     // Tu código aquí...
+    console.log("Hola que tal :), espero tengas un lindo dia ;)")
 }
 
 // 13. Utiliza `console.log()` para imprimir el valor de la variable `edad` que tiene el valor 30.
