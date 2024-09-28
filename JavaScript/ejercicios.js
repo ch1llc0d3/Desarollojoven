@@ -21,7 +21,9 @@ function compareSeven() {
 // 4. Verifica si puedes comprar un producto de 1500 con un descuento del 25% teniendo 1150€ e imprime si puedes o no.
 function canBuyProduct() {
     // Tu código aquí...
-
+    const itemdescontado = 1500*0.75;
+    const plata = 1150;
+    console.log(itemdescontado<=plata);
 }
 
 // Variables
