@@ -2,6 +2,7 @@
 // 1. Comprueba si 10 es mayor o igual que 9 e imprime el resultado en consola.
 function compareTenAndNine() {
     // Tu código aquí...
+    console.log(10>=9);
 }
 
 // 2. Comprueba si 0 es igual a 0 e imprime el resultado en consola.
