@@ -44,6 +44,8 @@ function createSumVariable() {
 // 7. Crea una constante llamada `IS_DISABLED` y asígnale el valor booleano `true`, luego imprime la constante en consola.
 function createDisabledConstant() {
     // Tu código aquí...
+    const IS_DISABLED = true
+    console.log(IS_DISABLED);
 }
 
 // Null y Undefined
