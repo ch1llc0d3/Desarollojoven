@@ -5,11 +5,14 @@
 // Imprime "El número es par" o "El número es impar" según corresponda.
 function verificarParidad(numero) {
     // Tu código aquí
+<<<<<<< HEAD
     if (numero%2===0) {
         console.log("El número es par");
     } else {
         console.log("El número es impar");
     }
+=======
+>>>>>>> e5fd09ee81eb9282a27981854f29359726274cfd
 }
 
 // Ejercicio 2: Condicionales anidados
@@ -79,4 +82,8 @@ export {
     obtenerDiaSemana,
     esVocal,
     evaluarNumeros,
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> e5fd09ee81eb9282a27981854f29359726274cfd
