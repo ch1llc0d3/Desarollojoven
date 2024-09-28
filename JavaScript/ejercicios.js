@@ -25,26 +25,22 @@ function canBuyProduct() {
 // 5. Crea una variable llamada `mensaje` y asígnale el valor "Hola JavaScript", luego imprime la variable en consola.
 function createMessageVariable() {
     // Tu código aquí...
-
 }
 
 // 6. Crea una variable llamada `resultado` y asígnale la suma de 2 y 3, luego imprime la variable en consola.
 function createSumVariable() {
     // Tu código aquí...
-
 }
 
 // 7. Crea una constante llamada `IS_DISABLED` y asígnale el valor booleano `true`, luego imprime la constante en consola.
 function createDisabledConstant() {
     // Tu código aquí...
-
 }
 
 // Null y Undefined
 // 8. Crea una variable con `let` llamada `capacidad` y asígnale un valor `null`, luego imprime la variable en consola.
 function createNullVariable() {
     // Tu código aquí...
-
 }
 
 // 9. Crea una variable con `let` llamada `dinero` y asígnale un valor `undefined`, luego imprime la variable en consola.
