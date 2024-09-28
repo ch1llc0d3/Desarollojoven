@@ -8,11 +8,13 @@ function compareTenAndNine() {
 // 2. Comprueba si 0 es igual a 0 e imprime el resultado en consola.
 function compareZeroAndZero() {
     // Tu código aquí...
+    console.log(0===0);
 }
 
 // 3. Comprueba si 7 es mayor que 8 y menor que 10, e imprime el resultado en consola.
 function compareSeven() {
     // Tu código aquí...
+    console.log(7>8 && 7<10);
 }
 
 // Operadores lógicos
