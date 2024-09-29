@@ -116,6 +116,17 @@ function obtenerDiaSemana(dia) {
 // Instrucción: Escribe una función que reciba un carácter y devuelva si es una vocal. Utiliza un `switch` y agrupa los casos para las vocales (a, e, i, o, u).
 function esVocal(letra) {
     // Tu código aquí
+    switch(letra.toLowerCase()){
+        case 'a':
+        case 'e':
+        case 'i':
+        case 'o':
+        case 'u':
+            console.log("Es una vocal");
+            break;
+        default:
+            console.log("No es vocal");
+    }
 }
 
 // Ejercicio 10: Condicionales complejos con operadores lógicos
