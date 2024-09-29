@@ -51,6 +51,11 @@ function repetirMensaje() {
 // Instrucción: Escribe una función que reciba un número entero positivo y utilice un bucle `for` para imprimir todos los números pares entre 0 y ese número.
 function imprimirPares(numero) {
     // Tu código aquí
+    for(let i = 0; i <= numero; i++) {
+        if(i %% 2 === 0) {
+            console.log(i);
+        }
+    }
 }
 
 // Ejercicio 6: Uso de break
