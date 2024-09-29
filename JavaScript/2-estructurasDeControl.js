@@ -40,6 +40,11 @@ function cuentaRegresiva(numero) {
 // Instrucción: Escribe una función que imprima "Estoy aprendiendo JavaScript" 5 veces utilizando un bucle `do-while`.
 function repetirMensaje() {
     // Tu código aquí
+    let i = 0;
+    do {
+        console.log("Estoy aprendiendo JavaScript");
+        i++;
+    } while (i < 5);
 }
 
 // Ejercicio 5: Bucle for
