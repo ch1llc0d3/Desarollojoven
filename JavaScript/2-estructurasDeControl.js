@@ -62,6 +62,12 @@ function imprimirPares(numero) {
 // Instrucción: Escribe una función que recorra los números del 1 al 10, pero detén el bucle cuando el número sea igual a 6.
 function detenerEnSeis() {
     // Tu código aquí
+    for(let i = 0; i < 10; i++) {
+        if (i === 6) { 
+            break; 
+        }
+        console.log(i);
+    }
 }
 
 // Ejercicio 7: Uso de continue
