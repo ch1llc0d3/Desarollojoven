@@ -5,14 +5,11 @@
 // Imprime "El número es par" o "El número es impar" según corresponda.
 function verificarParidad(numero) {
     // Tu código aquí
-<<<<<<< HEAD
-    if (numero%2===0) {
+    if(numero % 2 === 0) {
         console.log("El número es par");
     } else {
         console.log("El número es impar");
     }
-=======
->>>>>>> e5fd09ee81eb9282a27981854f29359726274cfd
 }
 
 // Ejercicio 2: Condicionales anidados
@@ -20,34 +17,18 @@ function verificarParidad(numero) {
 // "Menor de edad" (menor a 18), "Adulto" (entre 18 y 65), o "Adulto mayor" (mayor a 65).
 function clasificarEdad(edad) {
     // Tu código aquí
-    if(edad<18){
-        console.log("Menor de edad");
-    } else if(edad>=18&&edad<=65) {
-        console.log("Adulto");
-    } else (edad>65) {
-        console.log("Adulto mayor");
-    }
 }
 
 // Ejercicio 3: Bucles while
 // Instrucción: Crea una función que reciba un número entero positivo y utilice un bucle `while` para imprimir todos los números desde ese número hasta 0.
 function cuentaRegresiva(numero) {
     // Tu código aquí
-    while (numero>=0);
-    console.log(numero);
-    numero--;
 }
 
 // Ejercicio 4: Bucles do-while
 // Instrucción: Escribe una función que imprima "Estoy aprendiendo JavaScript" 5 veces utilizando un bucle `do-while`.
 function repetirMensaje() {
     // Tu código aquí
-    let i = 0;
-    do {
-        console.log("Estoy aprendiendo JavaScript");
-        i++;
-    }
-    while(i<5);
 }
 
 // Ejercicio 5: Bucle for
@@ -98,8 +79,4 @@ export {
     obtenerDiaSemana,
     esVocal,
     evaluarNumeros,
-<<<<<<< HEAD
 };
-=======
-};
->>>>>>> e5fd09ee81eb9282a27981854f29359726274cfd
