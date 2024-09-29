@@ -133,6 +133,14 @@ function esVocal(letra) {
 // Instrucción: Escribe una función que reciba tres números y determine si todos son positivos, al menos uno es negativo, o todos son negativos. Usa operadores lógicos (`&&`, `||`).
 function evaluarNumeros(a, b, c) {
     // Tu código aquí
+    if(a > 0 && b > 0 && c > 0){
+        console.log("Todos son positivos");
+    } else if(a < 0 && b < 0 && c < 0){
+        console.log("Todos son negativos");
+    } else (a < 0 && b < 0 && c < 0){
+        console.log("Al menos uno es negativo")
+    }
+
 }
 
 // Exportar todas las funciones
