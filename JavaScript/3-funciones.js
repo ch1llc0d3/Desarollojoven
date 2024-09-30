@@ -28,6 +28,9 @@
 // 2. Parámetros
 // 2.1 Crea una función llamada `multiplicar` que reciba dos parámetros, los multiplique y devuelva el resultado.
     // Tu código aquí
+    function multiplicar (a, b) {
+        return a*b;
+    }
 
 // 2.2 Escribe una función llamada `saludarPersonalizado` que reciba dos parámetros: `nombre` y `apellido`. La función debe devolver "Hola, [nombre] [apellido]".
     // Tu código aquí
