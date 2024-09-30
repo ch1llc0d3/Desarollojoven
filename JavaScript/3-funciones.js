@@ -125,9 +125,9 @@ function fibonacci(n) {
     return fibonacci(n-1) + fibonacci(n-2);
 }
 //operador ternario
-function fibonacci(n){
-    return (n<=1) ? n : fibonacci(n-1) + fibonacci(n-2);
-}
+//function fibonacci(n){
+//    return (n<=1) ? n : fibonacci(n-1) + fibonacci(n-2);
+//}
 
 // 5.3 Crea una función recursiva llamada `factorial` que calcule el factorial de un número. El factorial de n (n!) es el producto de todos los números enteros positivos menores o iguales a n.
 function factorial(n) {
