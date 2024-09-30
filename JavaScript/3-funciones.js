@@ -3,6 +3,9 @@
 // 1. Tu primera función
 // 1.1 Escribe una función llamada `despedir` que imprima "Adiós" en la consola.
     // Tu código aquí
+    function despedir () {
+        console.log("Adiós");
+    }
 
 // 1.2 Crea una función llamada `multiplicarPorDos` que tome un número como parámetro y devuelva el doble de ese número.
     // Tu código aquí
