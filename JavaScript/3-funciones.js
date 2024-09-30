@@ -88,6 +88,7 @@
 //     return a * b;
 // }
     // Tu código aquí
+    const multiplicarFlecha = (a, b) => a*b;
 
 // 4.2 Crea una función flecha llamada `saludarFlecha` que reciba un parámetro `nombre` y devuelva "Hola [nombre]".
     // Tu código aquí
