@@ -46,6 +46,9 @@
 
 // 2.4 Escribe una función llamada `restar` que reciba dos parámetros y devuelva la diferencia entre ellos.
     // Tu código aquí
+    function restar (x, y) {
+        return x-y;
+    }
 
 // 2.5 Crea una función llamada `dividir` que reciba dos parámetros y devuelva el resultado de la división del primer parámetro por el segundo.
     // Tu código aquí
