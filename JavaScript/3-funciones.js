@@ -52,6 +52,9 @@
 
 // 2.5 Crea una función llamada `dividir` que reciba dos parámetros y devuelva el resultado de la división del primer parámetro por el segundo.
     // Tu código aquí
+    function dividir (x, y) {
+        return x/y;
+    }
 
 // 3. Function Expression
 // 3.1 Crea una **function expression** que multiplique dos números y asígnala a la variable `funcionMultiplicar`.
