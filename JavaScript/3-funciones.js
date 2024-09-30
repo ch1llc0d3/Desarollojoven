@@ -9,6 +9,9 @@
 
 // 1.2 Crea una función llamada `multiplicarPorDos` que tome un número como parámetro y devuelva el doble de ese número.
     // Tu código aquí
+    function multiplicarPorDos(numero) {
+        return numero*2;
+    }
 
 // 1.3 Crea una función llamada `esMayorDeEdad` que tome un número como parámetro y devuelva `true` si es mayor de 18, o `false` en caso contrario.
     // Tu código aquí
