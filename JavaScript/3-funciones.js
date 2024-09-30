@@ -65,6 +65,9 @@
 
 // 3.2 Escribe una **function expression** llamada `saludar` que acepte un parámetro `nombre` y devuelva "Hola, [nombre]".
     // Tu código aquí
+    const saludar = function(nombre){
+        return `Hola, ${nombre}`;
+    }
 
 // 3.3 Crea una **function expression** llamada `esPar` que acepte un número como parámetro y devuelva `true` si el número es par, o `false` en caso contrario.
     // Tu código aquí
