@@ -113,7 +113,10 @@ function suma(n) {
     //}
     //}
 }
-
+//con operador ternario
+//function suma(n){
+//    return n === 0 ? 0 : n + suma(n-1);
+//}
 
 // 5.2 Escribe una función que calcule la sucesión de Fibonacci de forma recursiva. La sucesión de Fibonacci es una serie de números que empieza por 0 y 1 y cada número es la suma de los dos anteriores. Por ejemplo: `fibonacci(6) -> 8`
 function fibonacci(n) {
@@ -133,7 +136,7 @@ function factorial(n) {
 function potencia(base, exponente) {
     // Tu código aquí
     if(base===0) return 1;
-    return base * potencia(base, exponente-1)
+    return base * potencia(base,exponente-1);
 }
 
 // Exportar las funciones para que puedan ser probadas
