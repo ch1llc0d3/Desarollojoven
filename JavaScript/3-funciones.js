@@ -135,6 +135,10 @@ function factorial(n) {
     if(n===0) return 1;
     return n*factorial(n-1);
 }
+//operador ternario
+//function factorial(n){
+//    return (n===0) ? 1 : n*factorial(n=1);
+//}
 
 // 5.4 Escribe una función recursiva que calcule la potencia de un número dado el exponente. Por ejemplo: `potencia(2, 3) -> 8`
 function potencia(base, exponente) {
