@@ -52,7 +52,7 @@ function repetirMensaje() {
 function imprimirPares(numero) {
     // Tu código aquí
     for(let i = 0; i <= numero; i++) {
-        if(i %% 2 === 0) {
+        if(i % 2 === 0) {
             console.log(i);
         }
     }
@@ -137,8 +137,8 @@ function evaluarNumeros(a, b, c) {
         console.log("Todos son positivos");
     } else if(a < 0 && b < 0 && c < 0){
         console.log("Todos son negativos");
-    } else (a < 0 && b < 0 && c < 0){
-        console.log("Al menos uno es negativo")
+    } else {
+        console.log("Al menos uno es negativo");
     }
 
 }
