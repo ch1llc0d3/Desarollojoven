@@ -40,6 +40,9 @@
 
 // 2.3 Crea una función llamada `calcularPotencia` que reciba dos parámetros: base y exponente. La función debe devolver el resultado de elevar la base al exponente.
     // Tu código aquí
+    function calcularPotencia (base, exponente) {
+        return Math.pow(base, exponente);
+    }
 
 // 2.4 Escribe una función llamada `restar` que reciba dos parámetros y devuelva la diferencia entre ellos.
     // Tu código aquí
