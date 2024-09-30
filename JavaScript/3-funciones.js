@@ -67,10 +67,20 @@
     // Tu código aquí
     const saludar = function(nombre){
         return `Hola, ${nombre}`;
-    }
+    };
 
 // 3.3 Crea una **function expression** llamada `esPar` que acepte un número como parámetro y devuelva `true` si el número es par, o `false` en caso contrario.
     // Tu código aquí
+    const esPar = function(numero){
+        return numero%2===0;
+    };
+    //const esPar = function(numero){
+    //  if(numero%2===0) {
+    //    return true;    
+    //} else {
+    //    return false;}
+    //};
+
 
 // 4. Funciones Flecha
 // 4.1 Convierte la siguiente función en una función flecha llamada multiplicarFlecha:
