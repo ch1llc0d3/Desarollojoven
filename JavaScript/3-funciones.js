@@ -15,7 +15,16 @@
 
 // 1.3 Crea una función llamada `esMayorDeEdad` que tome un número como parámetro y devuelva `true` si es mayor de 18, o `false` en caso contrario.
     // Tu código aquí
-
+    function esMayorDeEdad (numero) {
+        if (numero >= 18) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    // function esMayorDeEdad (numero) {
+    // return (numero >= 18);
+    //}
 // 2. Parámetros
 // 2.1 Crea una función llamada `multiplicar` que reciba dos parámetros, los multiplique y devuelva el resultado.
     // Tu código aquí
