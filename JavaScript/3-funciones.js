@@ -104,7 +104,16 @@ const calcularArea = radio => {
 // 5.1 Escribe una función que calcule la suma de los primeros n números enteros de forma recursiva. Por ejemplo: `suma(3) -> 1 + 2 + 3 = 6`
 function suma(n) {
     // Tu código aquí
+    if (n === 0) return 0;
+    return n + suma(n-1);
+    //if(n===0){
+    //return 0;
+    //} else {
+    //return n + suma(n-1);
+    //}
+    //}
 }
+
 
 // 5.2 Escribe una función que calcule la sucesión de Fibonacci de forma recursiva. La sucesión de Fibonacci es una serie de números que empieza por 0 y 1 y cada número es la suma de los dos anteriores. Por ejemplo: `fibonacci(6) -> 8`
 function fibonacci(n) {
