@@ -146,6 +146,10 @@ function potencia(base, exponente) {
     if(base===0) return 1;
     return base * potencia(base,exponente-1);
 }
+//operador ternario
+//function potencia(base,exponente){
+//    return (base===0) ? 1 : base*potencia(base,exponente-1);
+//}
 
 // Exportar las funciones para que puedan ser probadas
 module.exports = {
@@ -167,4 +171,4 @@ module.exports = {
     potencia,
     saludarFlecha,
     multiplicarFlecha,
-};3-funciones.js
+};
