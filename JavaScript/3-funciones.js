@@ -97,7 +97,7 @@
 // 4.3 Escribe una función flecha llamada `calcularArea` que reciba el radio de un círculo y devuelva el área del círculo. Usa la fórmula A = π * r².
 const calcularArea = radio => { 
     // Tu código aquí
-    Math.PI * Math.pow(radio, 2);
+    return Math.PI * Math.pow(radio, 2);
 };
 
 // 5. Recursividad
@@ -141,9 +141,9 @@ function factorial(n) {
 //}
 
 // 5.4 Escribe una función recursiva que calcule la potencia de un número dado el exponente. Por ejemplo: `potencia(2, 3) -> 8`
-function potencia(base, exponente) {
+function potencia (base, exponente) {
     // Tu código aquí
-    if(base===0) return 1;
+    if(exponente===0) return 1;
     return base * potencia(base,exponente-1);
 }
 //operador ternario
