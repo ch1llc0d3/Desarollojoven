@@ -33,6 +33,9 @@ function palabrasTerminanConA(palabras) {
         }
     }
 }
+// function palabrasTerminanConA(palabras) {
+//      return palabras.every(palabra => palabra.endsWith('a'));
+//}
 
 const palabras = ['casa', 'silla', 'mesa']
 console.log(palabrasTerminanConA(palabras)) // -> true
@@ -49,6 +52,7 @@ function buscaPalabras(words, word) {
 // Si no la encuentra, devuelve [-1, -1].
 function findJavaScript(matrix) {
     // Tu código aquí
+    
 }
 
 const matrix = [
