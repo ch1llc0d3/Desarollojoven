@@ -4,7 +4,7 @@ const {
     palabrasTerminanConA,
     buscaPalabras,
     findJavaScript,
-//    findMinMaxPages
+    findMinMaxPages
 } = require('./4-tarea_arrays.js');
 
 describe('Pruebas de funciones de Arrays', () => {
@@ -43,4 +43,10 @@ describe('Pruebas de funciones de Arrays', () => {
         expect(resultado).toEqual([0, 2]);
     });
     
+    test('findMinMaxPages debe procesar correctamente el array', () => {
+        const libros = [350, 120, 540, 275, 390, 130, 670];
+        const resultado = findMinMaxPages(libros);
+        //console.log(resultado);
+        expect(resultado).toEqual([1, 6]);
+    })
 });
