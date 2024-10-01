@@ -74,7 +74,7 @@ function detenerEnSeis() {
 // Instrucción: Crea una función que recorra los números del 1 al 10, pero que se salte el número 5 usando `continue`.
 function saltarCinco() {
     // Tu código aquí
-    for( let i = 0; i <= 10; i++) {
+    for( let i = 1; i <= 10; i++) {
         if(i === 5 ) {
             continue;
         }
