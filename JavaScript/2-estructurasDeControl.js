@@ -88,26 +88,21 @@ function obtenerDiaSemana(dia) {
     // Tu código aquí
     switch(dia){
         case 1:
-            console.log("Lunes");
-            break;
+            return "Lunes";
         case 2:
-            console.log("Martes");
-            break;
+            return "Martes";
         case 3:
-            console.log("Miercoles");
-            break;
+            return "Miercoles";
         case 4:
-            console.log("Jueves");
-            break;
+            return "Jueves";
         case 5:
-            console.log("Viernes");
-            break;
+            return "Viernes";
         case 6:
-            console.log("Sabado");
-            break;
+            return "Sabado";
         case 7:
-            console.log("Domingo");
-            break;
+            return "Domingo";
+        default:
+            return "Dato no corresponde";
     }
 
 }
@@ -122,10 +117,10 @@ function esVocal(letra) {
         case 'i':
         case 'o':
         case 'u':
-            console.log("Es una vocal");
+            return "Es una vocal";
             break;
         default:
-            console.log("No es vocal");
+            return "No es vocal";
     }
 }
 
