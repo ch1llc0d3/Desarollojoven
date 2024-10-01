@@ -2,8 +2,8 @@ const {
     procesarPedido,
     sumarPares,
     palabrasTerminanConA,
-//    buscaPalabras,
-//    findJavaScript,
+    buscaPalabras,
+    findJavaScript,
 //    findMinMaxPages
 } = require('./4-tarea_arrays.js');
 
@@ -26,4 +26,21 @@ describe('Pruebas de funciones de Arrays', () => {
         const resultado = palabrasTerminanConA(palabras);
     })
 
+    test('buscaPalabras debe procesar correctamente el array', () => {
+        const words = ['casa', 'perro', 'gato', 'mesa', 'silla'];
+        const word = 'gato';
+        const resultado = buscaPalabras(words, word);
+        expect(resultado).toEqual(['mesa', 'silla']);
+    })
+
+    test('findJavaScript debe procesar correctamente el array', () => {
+        const matrix = [
+            ['HTML', 'CSS', 'JavaScript'],
+            ['Java', 'C++', 'Python'],
+            ['Ruby', 'Go', 'Swift']
+          ];
+        const resultado = findJavaScript(matrix);
+        expect(resultado).toEqual([0, 2]);
+    });
+    
 });

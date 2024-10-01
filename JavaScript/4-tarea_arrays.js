@@ -38,6 +38,7 @@ function palabrasTerminanConA(palabras) {
 //}
 
 const palabras = ['casa', 'silla', 'mesa']
+
 console.log(palabrasTerminanConA(palabras)) // -> true
 
 // 4. Transformar Arrays
@@ -45,6 +46,8 @@ console.log(palabrasTerminanConA(palabras)) // -> true
 // Busca el índice de la palabra en el array y devuelve todas las palabras más largas que ese índice.
 function buscaPalabras(words, word) {
     // Tu código aquí
+    const index = words.indexOf(word);
+    return index !== -1 ? words.slice(index + 1) : [];
 }
 
 // 5. Matrices
@@ -52,17 +55,24 @@ function buscaPalabras(words, word) {
 // Si no la encuentra, devuelve [-1, -1].
 function findJavaScript(matrix) {
     // Tu código aquí
-    
+    for (let i = 0; i < matrix.length; i++) {
+        for (let j = 0; j <matrix[i].length; j++) {
+            if (matrix[i][j] === 'JavaScript') {
+                return [i, j];
+            }
+        }
+    }
+    return [-1, -1];
 }
 
-const matrix = [
-    ['HTML', 'CSS', 'JavaScript'],
-    ['Java', 'C++', 'Python'],
-    ['Ruby', 'Go', 'Swift']
-  ]
+// const matrix = [
+//     ['HTML', 'CSS', 'JavaScript'],
+//     ['Java', 'C++', 'Python'],
+//     ['Ruby', 'Go', 'Swift']
+//   ]
   
-  const position = findJavaScript(matrix);
-  console.log(position); // -> [0, 2]
+//  const position = findJavaScript(matrix);
+//  console.log(position); // -> [0, 2]
 
 // 6. Algoritmos con Arrays
 // 6.1 Crea una función llamada `findMinMaxPages` que reciba un array de números (representando el número de páginas de libros).
