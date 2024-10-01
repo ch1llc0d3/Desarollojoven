@@ -3,6 +3,10 @@
 // Debes sacar el primer elemento (nombre del cliente), añadir "bebida" al inicio del array y añadir el nombre del cliente al final.
 function procesarPedido(pedido) {
     // Tu código aquí
+    const nombreCliente = pedido.shift();
+    pedido.unshift('bebida');
+    pedido.push(nombreCliente);
+    return pedido;
 }
 
 // 2. Iteración de Arrays en Javascript
@@ -11,13 +15,23 @@ function procesarPedido(pedido) {
 function sumarPares(numeros) {
     let suma = 0
     // tu código aquí
-    return suma
+    for (let numero of numeros) {
+        if (numero % 2 === 0) {
+            suma = suma + numero;
+        }
+    }
+    return suma;
 }
 
 // 3. Buscar en Arrays
 // 3.1 Escribe una función llamada `palabrasTerminanConA` que reciba un array de palabras y devuelva `true` si todas terminan con "a", o `false` si al menos una no lo hace.
 function palabrasTerminanConA(palabras) {
     // Tu código aquí
+    for (let palabra of palabras) {
+        if (!palabra.endsWith('a')) {
+            return false;
+        }
+    }
 }
 
 const palabras = ['casa', 'silla', 'mesa']
